@@ -10,7 +10,7 @@ for (int i = 0; i < 3; i++)
 {
     for (int j = 0; j < 3; j++)
     {
-        field0[j, i] = r.Next(0, 101);
+        field0[j, i] = r.Next(1, 101);
     }
 }
 void ShowField()
