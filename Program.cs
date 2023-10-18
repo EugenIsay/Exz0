@@ -3,7 +3,8 @@ int[,] field1 = new int[3, 3];
 int x;
 int y;
 bool temp;
-int read;
+bool check;
+string read;
 Random r = new Random();
 ConsoleKeyInfo key;
 for (int i = 0; i < 3; i++)
@@ -70,6 +71,7 @@ Console.SetCursorPosition(2, 1);
 y = 0; x = 0;
 while (true)
 {
+    check = false;
     temp = true;
     key = Console.ReadKey(true);
     switch (key.Key.ToString())
@@ -105,10 +107,18 @@ while (true)
             Console.WriteLine("Напишите число                                     ");
             Console.WriteLine("                                                   ");
             Console.SetCursorPosition(2 + y * 4, 1 + x * 2);
-            read = Convert.ToInt32(Console.ReadLine());
-            if (read > 0 && read < 101)
+            read = Console.ReadLine();
+            for (int i = 1; i < 101; i++)
             {
-                field1[x, y] = read;
+                if ($"{i}" == read)
+                {
+                    check = true;
+                    break;
+                }
+            }
+            if (check == true)
+            {
+                field1[x, y] = Convert.ToInt32(read);
                 Console.SetCursorPosition(0, 7);
                 Console.WriteLine("Заполните поле цифрами");
                 Console.WriteLine("Подтвердите выбор клетки клавишой enter");
