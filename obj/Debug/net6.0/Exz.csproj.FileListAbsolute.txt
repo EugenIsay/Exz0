@@ -1,0 +1,15 @@
+C:\Users\prdb\Desktop\IsayProjects\Exz\bin\Debug\net6.0\Exz.exe
+C:\Users\prdb\Desktop\IsayProjects\Exz\bin\Debug\net6.0\Exz.deps.json
+C:\Users\prdb\Desktop\IsayProjects\Exz\bin\Debug\net6.0\Exz.runtimeconfig.json
+C:\Users\prdb\Desktop\IsayProjects\Exz\bin\Debug\net6.0\Exz.dll
+C:\Users\prdb\Desktop\IsayProjects\Exz\bin\Debug\net6.0\Exz.pdb
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.csproj.AssemblyReference.cache
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.AssemblyInfoInputs.cache
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.AssemblyInfo.cs
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.csproj.CoreCompileInputs.cache
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.dll
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\refint\Exz.dll
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.pdb
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\Exz.genruntimeconfig.cache
+C:\Users\prdb\Desktop\IsayProjects\Exz\obj\Debug\net6.0\ref\Exz.dll
