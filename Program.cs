@@ -3,6 +3,7 @@ int[,] field1 = new int[3, 3];
 int x;
 int y;
 bool temp;
+int read;
 Random r = new Random();
 ConsoleKeyInfo key;
 for (int i = 0; i < 3; i++)
@@ -99,20 +100,31 @@ while (true)
             break;
         case "Enter":
 
+
             Console.SetCursorPosition(0, 7);
-            Console.WriteLine("Напишите цифру");
+            Console.WriteLine("Напишите число                                     ");
             Console.WriteLine("                                                   ");
-            Console.SetCursorPosition((2 + y * 4) - 1, 1 + x * 2);
-            field1[x, y] = Convert.ToInt32(Console.ReadLine());
-            Console.SetCursorPosition(0, 7);
-            Console.WriteLine("Заполните поле цифрами");
-            Console.WriteLine("Подтвердите выбор клетки клавишой enter");
+            Console.SetCursorPosition(2 + y * 4, 1 + x * 2);
+            read = Convert.ToInt32(Console.ReadLine());
+            if (read > 0 && read < 101)
+            {
+                field1[x, y] = read;
+                Console.SetCursorPosition(0, 7);
+                Console.WriteLine("Заполните поле цифрами");
+                Console.WriteLine("Подтвердите выбор клетки клавишой enter");
+            }
+            else
+            {
+                Console.SetCursorPosition(0, 7);
+                Console.WriteLine("Некоректный ввод");
+                Console.WriteLine("Выберите поле заново");
+            }
             Console.SetCursorPosition(0, 0);
             ShowField();
             ShowNum(1);
             break;
     }
-    Console.SetCursorPosition((2 + y * 4) - 1, 1 + x * 2);
+    Console.SetCursorPosition(2 + y * 4, 1 + x * 2);
     foreach (int field in field1)
     {
         if (field == 0)
